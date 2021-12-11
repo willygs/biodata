@@ -1,0 +1,46 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+#header,#footer{
+    width: 100%;
+    display: block;
+}
+#header{
+    background-color: yellow;
+}
+#header ul {
+    margin: 0;
+    padding: 0;
+}
+#header li {
+    float: left;
+    padding: 5px;
+    list-style: none;
+   
+}
+#sidebar{
+    padding: 5px 0px;
+    min-height: 400px;
+    clear: both;
+    background-color: red;
+    width: 20%;
+    display: block;
+    float: left;
+}
+#conten{
+    padding: 5px 0px;
+    min-height: 400px;
+    background-color: blue;
+    width: 80%;
+    display: block;
+    float: right;
+    
+}
+#footer{
+    clear: both;
+    color: black;
+    padding: 5px 0px;
+    text-align: center;
+    background-color: #cecece;
+}
